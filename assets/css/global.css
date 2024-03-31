@@ -37,6 +37,8 @@
 body {
     background-color: var(--primary-color);
     color: var(--text-color);
+    width: 100%;
+    overflow-x: hidden;
 }
 
 p {
@@ -52,6 +54,7 @@ a {
     font-size: 1rem;
     text-align: center;
 }
+
 /* Custom Scroll */
 
 ::-webkit-scrollbar {
